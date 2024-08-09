@@ -1,0 +1,46 @@
+  .women-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .products-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-card-1 {
+    border: 1px solid #8800ff;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(25% - 40px);
+    box-sizing: border-box;
+    background-color: #ff00ff;
+  }
+  
+  .product-card-1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-card-1 .add-to-cart-button {
+    background-color: #ff006a;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .product-card-1 .add-to-cart-button:hover {
+    background-color: #484848;
+    transition: 0.3s;
+  }
+  
